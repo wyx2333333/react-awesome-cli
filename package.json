@@ -1,0 +1,49 @@
+{
+  "name": "react-awesome-cli",
+  "version": "1.1.0",
+  "type": "module",
+  "author": "wyx",
+  "keywords": [
+    "react",
+    "vite",
+    "cli",
+    "node"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/wyx2333333/react-awesome-cli"
+  },
+  "homepage": "https://github.com/wyx2333333/react-awesome-cli#readme",
+  "description": "Create React apps with template.",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "init.js"
+  ],
+  "bin": {
+    "react-awesome-cli": "./index.js",
+    "rac": "./index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "htmlWhitespaceSensitivity": "css",
+    "jsxBracketSameLine": true,
+    "endOfLine": "auto"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "command-exists": "^1.2.9",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.7",
+    "ora": "^6.3.1",
+    "semver": "^7.5.4"
+  }
+}
