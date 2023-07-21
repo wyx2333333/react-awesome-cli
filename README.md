@@ -11,9 +11,9 @@
 
 ```
 npm i react-awesome-cli -g
-or
+# or
 yarn global add react-awesome-cli
-or
+# or
 pnpm add react-awesome-cli -g
 ```
 
@@ -21,7 +21,7 @@ pnpm add react-awesome-cli -g
 
 ```
 rac
-or
+# or
 react-awesome-cli
 ```
 
